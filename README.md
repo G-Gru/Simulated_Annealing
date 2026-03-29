@@ -1,2 +1,2 @@
 # Simulated_Annealing
-Simulated Annealing algorithm example in julia with example uses
+Simulated Annealing algorithm in julia with example usages
