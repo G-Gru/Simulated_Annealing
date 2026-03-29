@@ -1,0 +1,4 @@
+name = "JuliaProject"
+uuid = "6005f94c-436f-4ca2-96dd-b76309dcbac6"
+authors = ["Grzegorz Grudzień <ggrudzien@student.agh.edu.pl>"]
+version = "0.1.0"

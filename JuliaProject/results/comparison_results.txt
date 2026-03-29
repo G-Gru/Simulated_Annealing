@@ -1,0 +1,30 @@
+Time results for simulated annealing comparison between custom and optim library functions
+Parameters:
+- Initial temperature: 2.0
+- Cooling rate: 0.99
+- Number of iterations: 200
+- using param_energy_multi
+
+1. Custom function:
+- Time:
+    - Total: 545.895s
+    - Average per iteration: 0.5459s/iter
+- Fit percentage: 99.92999999999999%
+- Found parameters: 
+    - alpha = 1.655430719272846
+    - beta = 2.203717363200026
+    - T_init = 0.7811114016701137
+    - cooling = 0.999999999999
+    - max_iter = 94855
+
+1. Optim library function:
+- Time:
+    - Total: 620.401s
+    - Average per iteration: 0.6204s/iter
+- Fit percentage: 99.912%
+- Found parameters: 
+    - alpha = 1.369671088972782
+    - beta = 2.3557079633341593
+    - T_init = 1.4440214012758168
+    - cooling = 0.9999881553283054
+    - max_iter = 99923
